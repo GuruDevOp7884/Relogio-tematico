@@ -1,0 +1,64 @@
+
+@font-face {
+    font-family:'fonte-clock' ;
+    src: url(fonte/fonte-clock.ttf);
+}
+*{
+  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    background-image: url(https://www.themoviedb.org/t/p/original/siJt4MFAWGaGnioCoRURkDyWhF5.jpg);
+    background-size: cover;
+}
+
+
+.main{
+    background: 030303;
+    width: 400px;
+    height: 175px;
+    margin-top: 200px;
+    margin-left: 150px;
+    position: relative;
+    padding: 30px;
+}
+
+/*24 horas*/
+.badge{
+    
+    width: 200px;
+    
+    color: #fe9118; 
+    padding: 5px 10px;
+    font-family:'fonte-clock';
+    font-size: 30px;
+    
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 35%;
+}
+/*relogio*/
+.clock{
+    background: 030303;
+    color: #fe9118;
+    text-align: center;
+    font-size: 70px;
+    height: 100%;
+    padding-top: 25px;
+    font-family:'fonte-clock' ;
+    
+}
+
+.link{
+    text-decoration: none;
+    color: #fe9118;
+   
+    
+}
+
+
